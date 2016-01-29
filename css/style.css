@@ -1,5 +1,5 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+html, body, div, span, applet, object, iframe, p, 
+blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -214,4 +214,35 @@ body {
 .icon-home {
   padding: 10 30px;
   background-position: center;
+}
+h1{
+  color: #393939;
+  margin:0 90 0px;
+}
+
+ul, li {
+  font-size: 15;
+  margin:0 20 10px;
+}
+
+
+h1 {
+  font-size:28px;
+}
+
+h2 {
+  color:#393939;
+  font-size: 20;
+}
+
+h3, h4, h5, h6 {
+  color:#494949;
+}
+
+strong {
+  color:black;
+  font-weight:700;
+}
+p, p1, p2, p3, p4{
+  font-size: 15;
 }
