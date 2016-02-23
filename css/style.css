@@ -170,13 +170,12 @@ header{
 }
 
 h1{
-  color: #393939;
-  margin:0 90 0px;
+  color: black;
+  font-size: 70px;
 }
 
 h2 {
   color:#393939;
-  font-size: 20;
 }
 
 h3, h4, h5, h6 {
@@ -187,6 +186,6 @@ strong {
   color:black;
   font-weight:700;
 }
-p, p1, p2, p3, p4{
-  font-size: 15;
+p {
+  font-size: 16px;
 }
