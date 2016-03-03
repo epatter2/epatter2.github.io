@@ -1,3 +1,42 @@
+html, body, div, span, applet, object, iframe, p, 
+blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
 
 table {
   border-collapse: collapse;
@@ -137,32 +176,30 @@ h1{
 
 h2 {
   color:#393939;
-  font-size: 30px;
 }
 
-h3{
-  font-size: 25px;
-  color:black;
+h3, h4, h5, h6 {
+  color:#494949;
 }
 
 strong {
   color:black;
   font-weight:700;
 }
-
 p {
-  width: 600px;
   font-size: 16px;
-  text-align:center;
 }
 
 .content{
-  margin: 100px auto;
+  padding-top: 75px;
   width: 1000px;
-  text-align:center;
 }
 
 .content img{
   width: 600px;
-  text-align:center;
+}
+.content p{
+  width: 600px;
+  color:black;
+  font-size: 18px;
 }
